@@ -323,6 +323,12 @@ exe "hi! Title"         .s:fg_yellow      .s:bg_none        .s:fmt_none
 exe "hi! Visual"        .s:fg_none        .s:bg_selection   .s:fmt_none
 "		VisualNos"
 exe "hi! WarningMsg"    .s:fg_red         .s:bg_none        .s:fmt_none
+
+" cs file
+exe "hi! csIFace"       .s:fg_red         .s:bg_none        .s:fmt_none
+exe "hi! csClass"       .s:fg_purple      .s:bg_none        .s:fmt_none
+exe "hi! csModifier"    .s:fg_purple      .s:bg_none        .s:fmt_none
+exe "hi! csClassType"   .s:fg_yellow      .s:bg_none        .s:fmt_none
 "		WildMenu"
 
 " Use Xresources for background colour
